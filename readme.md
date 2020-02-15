@@ -47,7 +47,7 @@ extension=php_pdo_sqlsrv_73_nts_x64.dll
 'sqlsrv' => [
 	'driver' => 'sqlsrv',
 	'url' => env('DATABASE_URL'),
-	'host' => env('DB_HOST', 'DESKTOP-890UMAI'),
+	'host' => env('DB_HOST', 'DESKTOP-890UMAI'),  //Adicionado nome do servidor
 	'port' => env('DB_PORT', '1433'),
 	'database' => env('DB_DATABASE', 'forge'),
 	'username' => env('DB_USERNAME', 'forge'),
@@ -59,14 +59,14 @@ extension=php_pdo_sqlsrv_73_nts_x64.dll
 ```
 
 **Arquivo .env**
-
+```txt
 DB_CONNECTION=sqlsrv
-DB_HOST="DESKTOP-890UMAI"
+DB_HOST="DESKTOP-890UMAI"  
 DB_PORT=null
 DB_DATABASE=LARAVEL_VUE
 DB_USERNAME=sa
 DB_PASSWORD=sql@2020
-
+```
 
 **Solução para o erro “Tipo de dados datetime resultou em um valor fora do intervalo” no SQL Server**
 
