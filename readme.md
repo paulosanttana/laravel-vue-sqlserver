@@ -5,7 +5,7 @@
 
 **Projeto Laravel + VueJs + SQLServer**
 
-Consumindo API Laravel, SQL Server e VueJs. Esse projeto utiliza Laravel 5.7, VueJs, Bootstrap e Mysql.
+Consumindo API Laravel, SQL Server e VueJs. Esse projeto utiliza Laravel 5.7, VueJs e Bootstrap.
 
 
 
